@@ -228,8 +228,8 @@ int main(int argc, const char** argv) {
   int fd;
   
   if (!(p = malloc(MAX_FILE))) { puts("could not malloc src-code memory."); return 1; }
-  if (!(sym = malloc(MAX_FILE))) { puts("cloud not malloc sym memory."); return 1; }
-  if (!(d = malloc(MAX_FILE))) { puts("cloud not malloc data memory."); return 1; }
+  if (!(sym = malloc(MAX_FILE))) { puts("could not malloc sym memory."); return 1; }
+  if (!(d = malloc(MAX_FILE))) { puts("could not malloc data memory."); return 1; }
 
   lp = memset(p, 0, MAX_FILE);
   memset(sym, 0, MAX_FILE);
